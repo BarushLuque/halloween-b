@@ -17,7 +17,7 @@ body {
 
 h1 {
     margin: 0 0 24px;
-    color: #ff8c1a;
+    color: hsl(255, 100%, 55%);
     text-align: center;
 }
 
@@ -61,14 +61,14 @@ button {
     font-size: 15px;
     font-weight: bold;
     color: #1b1b24;
-    background: #ff8c1a;
+    background: hsl(255, 100%, 55%);
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #ffa64d;
+    background: hsl(255, 100%, 55%);
 }
 
 table {
@@ -86,7 +86,7 @@ td {
 }
 
 th {
-    background: #ff8c1a;
+    background: hsl(255, 100%, 55%);
     color: #1b1b24;
 }
 
