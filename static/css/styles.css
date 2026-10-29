@@ -2,14 +2,34 @@
     box-sizing: border-box;
 }
 
+/* ... Tus estilos anteriores se quedan exactamente igual ... */
+
 body {
     margin: 0;
     padding: 40px 16px;
     font-family: "Segoe UI", Arial, sans-serif;
+    background: #1b1b24;
     color: #ececf1;
-    background-image: url('images/tile.avif');
+    /* CORRECCIÓN: Ruta adaptada para la estructura de carpetas estáticas */
+    background-image: url('../images/prueba.png');
     background-repeat: repeat;
 }
+
+/* ... Mantén el resto de tus clases (container, h1, form, etc.) ... */
+
+/* NUEVO: Estilos para la imagen de la esquina inferior derecha */
+.esquina-inferior {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    z-index: 1000;
+    pointer-events: none;
+    /* Permite hacer clic a través de la imagen si tapa algo */
+}
+
 
 .container {
     max-width: 720px;
